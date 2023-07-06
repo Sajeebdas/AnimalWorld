@@ -1,22 +1,27 @@
 .head{
-    height: 160px;
+    height: 130px;
     padding: 20px;
-    margin-bottom: 50px;
     display: flex;
     justify-content: left;
     flex-direction: row-reverse;
     justify-content: 40px;
-    border: 10px solid black;
-    border-radius: 8px;
+    border: 8px solid black;
+    border-radius: 3px;
     box-shadow: 5px 5px 19px rgb(31, 82, 31) ;
+    margin-bottom: 10px;
 }
 .head:hover{
     color: rgb(180, 216, 144);
     cursor: pointer;
 }
 .down{
-    margin-left: 20px;
+    height: 300vh;
     padding: 10px;
+    background-color: rgb(138, 190, 190);
+    border: 8px solid black;
+    border-radius: 3px;
+    background-image: url("spotify/All\ animal.png"); background-repeat: no-repeat;
+    background-position: center;
     
 }
 .icon{
